@@ -1,0 +1,40 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Гладкий шрифт */
+  background: linear-gradient(to bottom right, #040924, #0e2e55); /* Темный градиент на фоне */
+  color: #fff; /* Цвет текста */
+  padding: 20px;
+  margin: 0;
+  box-sizing: border-box;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Тень для текста */
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Тень для заголовков */
+}
+
+p {
+  line-height: 1.6;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Тень для параграфов */
+}
+
+/* Пример стилей для кнопок */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Тень для кнопок */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Тень блока кнопки */
+}
+
+.button:hover {
+  background-color: #555;
+}
